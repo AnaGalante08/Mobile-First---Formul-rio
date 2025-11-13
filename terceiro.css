@@ -7,18 +7,13 @@
   font-family: "Inter", sans-serif;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-}
-
-
 body {
   background: #f8f8f8;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+ height: 100%;
+   width: 100%
 }
 
 
@@ -31,7 +26,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 .header {
   display: flex;
@@ -65,7 +59,6 @@ body {
   padding: 2rem;
 }
 
-
 .progress {
   display: flex;
   align-items: center;
@@ -90,7 +83,7 @@ body {
   background: #d0d7e3;
 }
 
-/* ===== FORM CARD ===== */
+
 .form-card {
   background: #fff;
   border: 1px solid #e3e6ed;
@@ -101,27 +94,17 @@ body {
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.form-card h1, .form-card h2 {
-  color: #333;
-  margin-bottom: 0.25rem;
-}
-
-.form-card h1 {
-  font-size: 24px;
-  font-weight: 600;
-}
-
 .form-card h2 {
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 0.25rem;
 }
 
-.hint, p {
+.form-card .hint {
   font-size: 12px;
   color: #999;
   margin-bottom: 1rem;
 }
-
 
 label {
   font-size: 13px;
@@ -137,14 +120,7 @@ input, select {
   border-bottom: 1px solid #ccc;
   outline: none;
   font-size: 14px;
-  background-color: transparent;
-  transition: border-color 0.3s;
 }
-
-input:focus, select:focus {
-  border-bottom-color: #3575ff;
-}
-
 
 .row {
   display: flex;
@@ -153,18 +129,6 @@ input:focus, select:focus {
 
 .col {
   flex: 1;
-}
-
-
-.selecao {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-top: 1rem;
-}
-
-.azul {
-  color: #519cec;
 }
 
 
@@ -210,4 +174,3 @@ input:focus, select:focus {
     flex-direction: column;
   }
 }
-
